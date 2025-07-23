@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "fastapi-toml-app"
+version = "0.1.0"
+description = "FastAPI with TOML config"
+authors = ["Your Name <you@example.com>"]
+
+
+[tool.poetry.dependencies]
+python = "^3.10.12"
+fastapi = "^0.111.0"
+uvicorn = "^0.30.0"
+toml = "^0.10.2"
+websockets = "^11.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
